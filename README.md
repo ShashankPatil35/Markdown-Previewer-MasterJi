@@ -19,5 +19,4 @@ Built with **HTML, CSS, and JavaScript**, this project uses `marked.js` for mark
 - **Frontend:** HTML, CSS, JavaScript
 - **Libraries Used:**
   - [`marked.js`](https://marked.js.org/) – For parsing Markdown to HTML.
-  - [`highlight.js`](https://highlightjs.org/) (Bonus) – For syntax highlighting in code blocks.
 
