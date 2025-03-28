@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    gap: 20px;
+}
+
+textarea, #preview {
+    width: 50%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+#preview {
+    background: #fff;
+    overflow-y: auto;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #62b561;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #013013;
+}
